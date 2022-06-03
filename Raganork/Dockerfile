@@ -1,4 +1,4 @@
-FROM souravkl11/raganork:test
+FROM Afx-Amru/vava_mwol:test
 
 RUN git clone https://github.com/Afx-Amru/Vava_Mwol/ /skl/vava_mwol
 WORKDIR /skl/vava_mwol 
