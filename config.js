@@ -1,4 +1,4 @@
-// FILE: SOURAVKL11/RAGANORK
+// FILE: AFX-AMRU/VAVA_MWOL
 const { Sequelize } = require('sequelize');
 const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
@@ -14,7 +14,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 module.exports = {
     VERSION: 'v3.0.0',
     CHANNEL: 'undefined',
-    SESSION: process.env.RAGANORK_CODE === undefined ? 'apikey' : process.env.RAGANORK_CODE,
+    SESSION: process.env.VAVA_MWOL_CODE === undefined ? 'apikey' : process.env.VAVA_MWOL_CODE,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AFN: process.env.ALL_CAPTION === undefined ? '*MADE BY YOUR BOT NAME*' : process.env.ALL_CAPTION,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
@@ -29,11 +29,11 @@ module.exports = {
     M_REPLY_VAR: process.env.M_REPLY_VAR === undefined ? 'true' : process.env.M_REPLY_VAR,
     AFNN: process.env.TAG_REPLY === undefined ? '919074309534@s.whatsapp.net' : process.env.TAG_REPLY,
     NBSK: process.env.ALL_NUMBER === undefined ? '916282344739' : process.env.ALL_NUMBER,
-    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? 'sᴏᴜʀᴀᴠᴋʟ¹¹;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://www.linkpicture.com/q/rgnk.jpg' : process.env.AUDIO_DATA,
+    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? 'AFX-AMRU;VAVA_MWOL;https://www.linkpicture.com/q/rgnk.jpg' : process.env.AUDIO_DATA,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
-    PLK: process.env.OWNER_NAME === undefined ? 'sᴏᴜʀᴀᴠᴋʟ¹¹' : process.env.OWNER_NAME,
+    PLK: process.env.OWNER_NAME === undefined ? 'AFX-AMRU' : process.env.OWNER_NAME,
     SONGD: process.env.SONGD === undefined ? '𝙎𝙚𝙖𝙧𝙘𝙝𝙞𝙣𝙜 𝙨𝙤𝙣𝙜... 🔍' : process.env.SONGD,
     SONGU: process.env.SONGU === undefined ? '_<Uploading message here>_' : process.env.SONGU,
     BGMFILTER: process.env.BGM_FILTER === undefined ? false : convertToBool(process.env.BGM_FILTER),
@@ -49,7 +49,7 @@ module.exports = {
     BOTSK: process.env.BOT_NAME === undefined ? 'PUBLIC BOT' : process.env.BOT_NAME,
     SUPPORT: process.env.ASENA === undefined ? '919074309534-1632403322,120363038867058369' : process.env.ASENA,
     GIF_WEL: process.env.GIF_WEL === undefined ? 'https://c.tenor.com/G9Bu13ZlhVkAAAPo/dancing-funny-dance.mp4' : process.env.GIF_WEL,
-    SLINK: process.env.IG === undefined ? 'instagram.com/sourav_kl11' : process.env.IG,
+    SLINK: process.env.IG === undefined ? 'instagram.com/__cyber_banner__' : process.env.IG,
     JID: process.env.VERIFIED === undefined ? '0@s.whatsapp.net' : process.env.VERIFIED,
     GIF_BYE: process.env.GIF_BYE === undefined ? 'https://c.tenor.com/6tlIWiAlT_gAAAPo/cat-impressed-cat-wow.mp4' : process.env.GIF_BYE,
     LOGOSK: process.env.ALL_IMG === undefined ? 'https://www.linkpicture.com/q/rgnk.jpg' : process.env.ALL_IMG.split(',')[Math.floor(Math.random()*process.env.ALL_IMG.split(',').length)],
@@ -60,7 +60,7 @@ module.exports = {
     BLOCKMSG: process.env.BLOCK_MESSAGE === undefined ? 'default' : process.env.BLOCK_MESSAGE,
     UNBLOCKMSG: process.env.UNBLOCK_MESSAGE === undefined ? 'default' : process.env.UNBLOCK_MESSAGE,
     SOURAV: process.env.SK_BLOCK === undefined ? 'false' : process.env.SK_BLOCK,
-    SOURAVKL11: process.env.STICKER_DATA === undefined ? 'sᴏᴜʀᴀᴠᴋʟ¹¹|ʀᴀɢᷨᴀͦɴͭᴏʀᴋ' : process.env.STICKER_DATA,
+    SOURAVKL11: process.env.STICKER_DATA === undefined ? 'AFX-AMRU|VAVA_MWOL' : process.env.STICKER_DATA,
     ANTI_FAKE: process.env.AUTO_FAKE === undefined ? 'sourav' : process.env.AUTO_FAKE,
     AUTO_FAKE: process.env.ANTI_FAKE === undefined ? 'false' : process.env.ANTI_FAKE,
     UNMUTEMSG: process.env.UNMUTE_MESSAGE === undefined ? 'default' : process.env.UNMUTE_MESSAGE,
